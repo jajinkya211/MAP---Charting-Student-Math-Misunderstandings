@@ -26,9 +26,6 @@ A simple, **fully offline** starter/benchmark for the Kaggle MAP competition.
    • Only `False_Misconception` may pair with a non-`None` misconception
    • Other categories always pair with `:None`
    • Confidence gates avoid low-probability spam; exactly **3 tokens** per row, deduped
-6. **Submission safety**
-   • Read `sample_submission.csv` and use its **exact second column name** (prevents 0.0000 due to header mismatch)
-   • Validate shape and tokens before writing
 
 ---
 ## Tuning knobs (safe to change)
